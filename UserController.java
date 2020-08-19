@@ -25,7 +25,7 @@ public class UserController {
 		return "user/update";
 	}
 
-	// 회워삭제 할 때, 회원 세션 정보 삭제
+	// 회원삭제 할 때, 회원 세션 정보 삭제
 	// 회원삭제 페이지로 이동
 	@RequestMapping("/user/delete.do")
 	public String delete() {
