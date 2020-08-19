@@ -25,6 +25,9 @@ public class UserController {
 		return "user/update";
 	}
 
+	// master 브랜치에 주석 추가
+	// 회원탈퇴 시, 세션 삭제
+
 	// 회원삭제 페이지로 이동
 	@RequestMapping("/user/delete.do")
 	public String delete() {
